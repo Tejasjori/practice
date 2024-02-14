@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    th {
+        background-color: blue;
+        color: brown;
+    }
+
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    table {
+        height: 100px;
+
+        width: 200px;
+    }
+    tr:nth-child(odd){
+        background-color: blueviolet;
+    }
+    td:hover{
+        background-color: red;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>NAME</th>
+            <td>xyz</td>
+            <td>pqr</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Mo No</th>
+            <td>1234</td>
+            <td>5678</td>
+        </tr>
+        <tr>
+            <td>9876</td>
+            <td>9999</td>
+
+        </tr>
+        <tr>
+            <th>Websites</th>
+            <td><a href="https://www.instagram.com/" target="blanck">instgram</a></td>
+            <td>fecbook</td>
+        </tr>
+
+
+
+    </table>
+</body>
+
+</html>

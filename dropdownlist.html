@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .main {
+        background-color: aqua;
+        border: 2px solid brown;
+        border-radius: 2px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    li {
+        float: left;
+
+    }
+
+    li a {
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid black;
+        text-decoration: none;
+        background-color: chartreuse;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position:absolute;
+        margin-top: 10px;
+    }
+
+    .dropdown-content a {
+        background-color: darkgoldenrod;
+        color: antiquewhite;
+        display: block;
+    }
+
+    li a:hover {
+        background-color: deeppink;
+    }
+    li.dropdown .drpbtn:hover {
+        background-color: brown;
+        color: beige;
+    }
+    li.dropdown a.drpbtn{
+        background-color: coral;
+    }
+    li.dropdown:hover .dropdown-content{
+        display: block;
+    }
+    
+
+</style>
+
+<body>
+    <div class="main">
+        <ul>
+            <li><a href="A.HTML">home</a></li>
+            <li><a href="">abaut</a></li>
+            <li><a href="">contact us</a></li>
+            <li class="dropdown"><a href="" class="drpbtn">tutorial</a>
+                <div class="dropdown-content">
+                    <a href="">html</a>
+                    <a href="">css</a>
+                    <a href="">js</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

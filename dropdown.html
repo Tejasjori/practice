@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .dropdown{
+        background-color: darkkhaki;
+        display:inline-block;
+    }
+    .hovereffect{
+        display: none;
+        background-color: white;
+        border:2px solid black;
+    }
+    .dropdown:hover{
+        background-color: brown;
+    }
+    .dropdown:hover .hovereffect{
+        display: block;
+    }
+
+</style>
+<body>
+    <div class="main">
+        <div class="dropdown">
+            <span>tejas</span>
+            <div class="hovereffect">
+                
+                    <li>Name</li>
+                    <li>Contact</li>
+                    <li>Address</li>
+                
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
